@@ -1,2 +1,2 @@
 # Channel-Permutator
-Channel estimation
+The code will be released soon
