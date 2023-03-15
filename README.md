@@ -19,6 +19,7 @@ Remark: In the hybird-field channel modeling for XL-RIS systems, we refer to the
 [2] E. Basar, I. Yildirim, “Reconfigurable Intelligent Surfaces for Future Wireless Networks: A Channel Modeling Perspective“, IEEE Wireless Commun., vol. 28, no. 3, pp. 108–114, June 2021.
 
 2.The Training and Testing of U-MLP model
+1) Network architecture
 
 We have integrated the model training and test code, and you can run the “main.py” file to obtain the channel estimation result of the LPAN or LPAN-L model. The detailed network model is given in the “LPAN.py” and “LPAN-L.py”.
 
