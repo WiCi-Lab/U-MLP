@@ -24,11 +24,7 @@ We have provided the model training and test code to reproduce the corresponding
 
 Notes:
 
-(1) Please confirm the required library files have been installed.
-
-(2) Please switch the desired data loading path and network models.
-
-(3) In the training stage, the different hyper-parameters setup will result in slight difference for final channel estimation perfromance. According to our simulation experience, the hyper-parameters and network architecture can be further optimized to obtain better channel estimation performance gain, e.g., the training batchsize, epochs, and the depth and width of neural network.
+In the training stage, the different hyper-parameters setup will result in slight difference for final channel estimation perfromance. According to our training experiences and some carried attempts, the hyper-parameters and network architecture can be further optimized to obtain better channel estimation performance gain, e.g., the learning rate, training batchsize and epochs.
 
 If you have any queries, please don’t hesitate to contact the email jianx@mails.ccnu.edu.cn.
 
