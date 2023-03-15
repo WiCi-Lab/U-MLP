@@ -6,7 +6,7 @@ How to use this simulation code package?
 
 1.Data Generation and Download
 
-We have provided the paired samples in following link, where the LS-based pre-estimation processing and data normalization have been completed.
+We have provided the paired samples in following link, where the data pre-estimation processing and normalization operations have been completed.
 
 DOI Link: https://dx.doi.org/10.21227/3c2t-dz81
 
