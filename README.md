@@ -19,9 +19,8 @@ Remark: In the hybird-field channel modeling for XL-RIS systems, we refer to the
 [2] E. Basar, I. Yildirim, “Reconfigurable Intelligent Surfaces for Future Wireless Networks: A Channel Modeling Perspective“, IEEE Wireless Commun., vol. 28, no. 3, pp. 108–114, June 2021.
 
 2.The Training and Testing of U-MLP model
-1) Network architecture
-https://github.com/Holographic-Lab/Channel-Permutator/blob/main/U-Net.png
-We have integrated the model training and test code, and you can run the “main.py” file to obtain the channel estimation result of the LPAN or LPAN-L model. The detailed network model is given in the “LPAN.py” and “LPAN-L.py”.
+
+We have provide the model training and test code to reproduce the corresponding results. Specifically, you can run the “main_UMLP.py” file to train the channel estimation network, and then run the “test_UMLP.py” to realized the cascaded channel estimation under different SNR conditions. The detailed network architecture is given in the “model_UMLP.py”.
 
 Notes:
 
@@ -29,8 +28,9 @@ Notes:
 
 (2) Please switch the desired data loading path and network models.
 
-(3) In this work, our goal is to propose a general multi-scale channel estimation network backbone for RIS-aided communication systems. In the model training phase, we did not carefully find the optimal hyper-parameters. Intuitively, hyper-parameters can be further optimized to obtain better channel estimation performance gain, e.g., the training batchisze, epochs, and the depth and width of neural network.
+(3) 
+In this work, our goal is to propose a general multi-scale channel estimation network backbone for RIS-aided communication systems. In the model training phase, we did not carefully find the optimal hyper-parameters. Intuitively, hyper-parameters can be further optimized to obtain better channel estimation performance gain, e.g., the training batchisze, epochs, and the depth and width of neural network.
 
-The author in charge of this simulation code pacakge is: Jian Xiao (email: jianx@mails.ccnu.edu.cn). If you have any queries, please don’t hesitate to contact me.
+If you have any queries, please don’t hesitate to contact the email jianx@mails.ccnu.edu.cn.
 
-Copyright reserved by the WiCi Lab, Department of Electronics and Information Engineering, Central China Normal University, Wuhan 430079, China.
+Copyright reserved by the WiCi Lab, Department of Electronics and Information Engineering, Central China Normal University, Wuhan, China.
