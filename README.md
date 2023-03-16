@@ -10,7 +10,9 @@ In the "data.txt" file, we have provided the download links and descriptions of 
 
 You can download the dataset and put it in the desired folder. The “inHmix_73_32_512__4users_64pilot.mat” file and “inHmixLS_73_32_512_4users_32pilot.mat” file include the training and validation dataset, in which the LS pre-estimation is used in "inHmixLS_73_32_512_4users_32pilot.mat" file. The “inHmix_73_32_512_test4users_32pilot.mat” file, “inHmix_73_32_512_test4users_64pilot.mat”, and “inHmix_73_32_512_4users_128pilot.mat” file are the testing dataset, whose pilot overhead are set to 32, 64 and 128, respectively.
 
-Remark: In the hybrid-field channel modeling for XL-RIS systems, we refer to the channel modeling scheme in [1] for RIS-aided mmWave Massive MIMO systems (e.g., the path loss model and clustered scatters distribution), in which the far-field communication scenarios is extend to the hybrid-field communication by supplementing the near-field array response and VR cover vector. We are very grateful for the author of following reference paper and the open-source SimRIS Channel Simulator MATLAB package [2].
+In the training and validation dataset generation, a common set of XL-RIS links is used for cascaded channel samples. However, in the test dataset, we replace a new set of XL-RIS links for each sample realization, which supports the network generalization in the test stage.
+
+In the hybrid-field channel modeling for XL-RIS systems, we refer to the channel modeling scheme in [1] for RIS-aided mmWave Massive MIMO systems (e.g., the path loss model and clustered scatters distribution), in which the far-field communication scenarios is extend to the hybrid-field communication by supplementing the near-field array response and VR cover vector. We are very grateful for the author of following reference paper and the open-source SimRIS Channel Simulator MATLAB package [2].
 
 [1] E. Basar, I. Yildirim, and F. Kilinc, “Indoor and outdoor physical channel modeling and efficient positioning for reconfigurable intelligent surfaces in mmWave bands,” IEEE Trans. Commun., vol. 69, no. 12, pp. 8600-8611, Dec. 2021.
 
