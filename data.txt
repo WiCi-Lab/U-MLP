@@ -1,0 +1,7 @@
+download link: https://pan.baidu.com/s/1kbWFg85ZqSaY7rTy0weqTw
+verification code: fdnr
+descriptions: In the download link, we provided six data files, in which the mian parameters is listed as following
+The number of antennas of AP: M=32;
+The number of elements of XL-RIS: N=512;
+The carrier frequency: f= 73 GHz;
+The pilot overhead: P= 32/64/128/512;
