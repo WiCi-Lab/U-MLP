@@ -21,7 +21,7 @@ Remark: In the hybrid-field channel modeling for XL-RIS systems, we refer to the
 We have provided the model training and test code to reproduce the corresponding results. Specifically, you can run the “main_UMLP.py” file to train the channel estimation network, and then run the “test_UMLP.py” to realize the cascaded channel estimation under different SNR conditions. The detailed network architecture is given in the “model_UMLP.py”.
 
 Notes:
-1. In the training stage, the different hyper-parameters setup will result in slight difference for final channel estimation perfromance. According to our training experiences and some carried attempts, the hyper-parameters and network architecture can be further optimized to obtain better channel estimation performance gain, e.g., the dividing ratio between training samples and vadilation samples, the number of kernel, and the training batchsize and epochs.
+1. In the training stage, the different hyper-parameters setup will result in slight difference for final channel estimation perfromance. According to our training experiences and some carried attempts, the hyper-parameters and network architecture can be further optimized to obtain better channel estimation performance gain, e.g., the dividing ratio between training samples and vadilation samples, the number of kernel, and the training learning rate, batchsize and epochs.
 2. Since the limitation of sample space (e.g., the fixed number of channel samples is collected for each user), the inevitable overfitting phenomenon may occur in the network training stage with the increase of epochs
 
 If you have any queries, please don’t hesitate to contact the email jianx@mails.ccnu.edu.cn.
