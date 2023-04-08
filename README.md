@@ -6,7 +6,7 @@ How to use this simulation code package?
 
 1.Data Generation and Download
 
-In the "data.txt" file, we have provided the download links and descriptions of paired samples for cascaded channel estimation in XL-RIS systems, where the data pre-estimation processing and normalization operations have been completed. 
+In the "data.txt" file, we have provided the download links and descriptions of paired samples for cascaded channel estimation in XL-RIS systems, where the data preprocessing and normalization operations have been completed. 
 
 You can download the dataset and put it in the desired folder. The “inHmix_73_32_512__4users_64pilot.mat” file and “inHmixLS_73_32_512_4users_32pilot.mat” file include the training and validation dataset, in which the LS pre-estimation is used in "inHmixLS_73_32_512_4users_32pilot.mat" file. The “inHmix_73_32_512_test4users_32pilot.mat” file, “inHmix_73_32_512_test4users_64pilot.mat”, and “inHmix_73_32_512_4users_128pilot.mat” file are the testing dataset, whose pilot overhead are set to 32, 64 and 128, respectively.
 
