@@ -1,6 +1,6 @@
 # U-MLP Based Channel Estimation for XL-RIS Systems
 
-This work has been submitted for possible publication. We highly respect reproducible research, so we try to provide the simulation codes for our submitted papers.
+We highly respect reproducible research, so we try to provide the simulation codes for our submitted papers.
 
 How to use this simulation code package?
 
