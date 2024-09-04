@@ -12,7 +12,7 @@ You can download the dataset and put it in the desired folder. The “inHmix_73_
 
 In the training and validation dataset generation, a common set of XL-RIS links is used for cascaded channel samples. However, in the test dataset, we replace a new set of XL-RIS links for each sample realization, which supports the network generalization in the test stage.
 
-In the hybrid-field channel modeling for XL-RIS systems, we refer to the channel modeling scheme in [1] for RIS-aided mmWave Massive MIMO systems (e.g., the path loss model and clustered scatters distribution), in which the far-field communication scenarios is extend to the hybrid-field communication by supplementing the near-field array response and VR cover vector. We are very grateful for the author of following reference paper and the open-source SimRIS Channel Simulator MATLAB package [2].
+In the hybrid-field channel modeling for XL-RIS systems, we refer to the channel modeling scheme in [1] for RIS-aided mmWave Massive MIMO systems (e.g., the path loss model and clustered scatters distribution), in which the far-field communication scenarios are extend to the hybrid-field communication by supplementing the near-field array response and VR cover vector. We are very grateful for the author of following reference paper and the open-source SimRIS Channel Simulator MATLAB package [2].
 
 [1] E. Basar, I. Yildirim, and F. Kilinc, “Indoor and outdoor physical channel modeling and efficient positioning for reconfigurable intelligent surfaces in mmWave bands,” IEEE Trans. Commun., vol. 69, no. 12, pp. 8600-8611, Dec. 2021.
 
@@ -23,7 +23,7 @@ In the hybrid-field channel modeling for XL-RIS systems, we refer to the channel
 We have provided the model training and test code to reproduce the corresponding results. Specifically, you can run the “main_UMLP.py” file to train the channel estimation network, and then run the “test_UMLP.py” to realize the cascaded channel estimation under different SNR conditions. The detailed network architecture is given in the “model_UMLP.py”.
 
 Notes:
-1. In the training stage, the different hyper-parameters setup will result in slight difference for final channel estimation perfromance. According to our training experiences and some carried attempts, the hyper-parameters and network architecture can be further optimized to obtain better channel estimation performance gain, e.g., the dividing ratio between training samples and vadilation samples, the number of kernel, and the training learning rate, batchsize and epochs.
+1. In the training stage, the different hyper-parameters setup will result in slight difference for final channel estimation performance. According to our training experiences and some carried attempts, the hyper-parameters and network architecture can be further optimized to obtain better channel estimation performance gain, e.g., the dividing ratio between training samples and validation samples, the number of kernel, and the training learning rate, batchsize and epochs.
 2. Since the limitation of sample space (e.g., the fixed number of channel samples is collected for each user), the inevitable overfitting phenomenon may occur in the network training stage with the increase of epochs
 
 If you have any queries, please don’t hesitate to contact the email jianx@mails.ccnu.edu.cn.
